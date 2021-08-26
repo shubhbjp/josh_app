@@ -1,0 +1,10 @@
+<%=form_with url: "/employee-update-room", method: :put do |f|%>
+    <%=f.hidden_field "authenticity_token"%>
+    <%=f.label "room_no", "Room No: " %>
+    <%=f.text_field "room_no"%>
+    <%=f.label "emp_id", "Emp Id: " %>
+    <%=f.text_field "emp_id"%>
+    <%= f.submit "Update" %>
+<%end%>
+
+<%=@message%>

@@ -1,0 +1,1 @@
+puts s Seat.room_with_more_than_n_emp(15)
